@@ -66,7 +66,7 @@ class Enlace:
         # vir quebrado de várias formas diferentes - por exemplo, podem vir
         # apenas pedaços de um quadro, ou um pedaço de quadro seguido de um
         # pedaço de outro, ou vários quadros de uma vez só.
-        
+        #
         if b'\xC0' not in dados:
             self.buffer = self.buffer + dados
         else:
